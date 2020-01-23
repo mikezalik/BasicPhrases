@@ -18,11 +18,12 @@
 
         <Button
             android:id="@+id/button"
-            android:text="DO YOU SPEAK ENGLISH?"
+            android:text="DO YOU\nSPEAK ENGLISH?"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="doYouSpeakEnglish"/>
+            android:tag="doYouSpeakEnglish"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button1"
@@ -30,7 +31,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="goodEvening"/>
+            android:tag="goodEvening"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button2"
@@ -38,7 +40,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="hello"/>
+            android:tag="hello"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button3"
@@ -46,7 +49,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="howAreYou"/>
+            android:tag="howAreYou"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button4"
@@ -54,7 +58,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="iLiveIn"/>
+            android:tag="iLiveIn"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button5"
@@ -62,7 +67,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="myNameIs"/>
+            android:tag="myNameIs"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button6"
@@ -70,7 +76,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="please"/>
+            android:tag="please"
+            android:onClick="playPhrase"/>
 
         <Button
             android:id="@+id/button7"
@@ -78,7 +85,8 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:tag="welcome"/>
+            android:tag="welcome"
+            android:onClick="playPhrase"/>
 
 
     </androidx.gridlayout.widget.GridLayout>
