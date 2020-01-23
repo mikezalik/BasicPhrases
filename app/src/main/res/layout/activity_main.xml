@@ -88,6 +88,5 @@
             android:tag="welcome"
             android:onClick="playPhrase"/>
 
-
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
