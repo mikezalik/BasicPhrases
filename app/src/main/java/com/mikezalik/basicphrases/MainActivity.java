@@ -10,6 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Method to read tag of button pressed and return appropriate media.
     public void playPhrase(View view) {
         Button buttonPressed = (Button) view;
         Log.i("Button pressed", buttonPressed.getTag().toString());
