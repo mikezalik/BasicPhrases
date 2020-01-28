@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/button1"
-            android:text="GOOD EVENING"
+            android:text="@string/good_evening"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
@@ -36,7 +36,7 @@
 
         <Button
             android:id="@+id/button2"
-            android:text="HELLO"
+            android:text="@string/hello"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
@@ -45,7 +45,7 @@
 
         <Button
             android:id="@+id/button3"
-            android:text="HOW ARE YOU?"
+            android:text="@string/how_are_you"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
@@ -54,7 +54,7 @@
 
         <Button
             android:id="@+id/button4"
-            android:text="I LIVE IN"
+            android:text="@string/i_live_in"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
@@ -63,7 +63,7 @@
 
         <Button
             android:id="@+id/button5"
-            android:text="MY NAME IS"
+            android:text="@string/my_name_is"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
