@@ -18,7 +18,7 @@
 
         <Button
             android:id="@+id/button"
-            android:text="DO YOU\nSPEAK ENGLISH?"
+            android:text="@string/do_you_nspeak_english"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
